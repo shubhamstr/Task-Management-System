@@ -1,9 +1,11 @@
-import NxWelcome from './nx-welcome';
+// import NxWelcome from './nx-welcome';
+import SignIn from './SignIn';
 
 export function App() {
   return (
     <div>
-      <NxWelcome title="task-management-system" />
+      {/* <NxWelcome title="task-management-system" /> */}
+      <SignIn />
     </div>
   );
 }
